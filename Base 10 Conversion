@@ -1,0 +1,7 @@
+#convert 'x' base 10  into 'x' base 'y'
+x = int(input('Enter an integer: '))
+y = int(input('Enter a base: '))
+while x/y > 0:
+    print x%y
+    x = x/y
+print(x%y)
